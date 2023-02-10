@@ -1,9 +1,33 @@
 .Navbar{
-    background-color: #000;
-    color: #fff;
+    background-color: #e3d3cb;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     padding-left: 20px;
+    padding-right: 220px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.avatar{
+    margin-right: 13px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    text-decoration: none;
+}
+
+.links a{
+    color: #e32e2e;
+    text-decoration: none;
+    padding: 25px;
 }
