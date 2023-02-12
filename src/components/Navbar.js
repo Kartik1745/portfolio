@@ -2,6 +2,10 @@ import './Navbar.css';
 import { Avatar } from '@mui/material';
 
 const Navbar = () => {
+    const scrollTo = (elementId) => {
+        const element = document.getElementById(elementId);
+        element.scrollIntoView({ behavior: "smooth" });
+    };
     return (
         <div className="Navbar">
             <div className='nav-left'>
@@ -9,10 +13,10 @@ const Navbar = () => {
             <h1 className='name'>Kartik Patil</h1>
             </div>
            <div className='links'>
-                <a>Home</a>
-                <a >About</a>
-                <a >Projects</a>
-                <a >Contact</a>
+                <li onClick={() => scrollTo("home")}>Home</li>
+                <li onClick={() => scrollTo("about")}>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
            </div>
         </div>
     );  

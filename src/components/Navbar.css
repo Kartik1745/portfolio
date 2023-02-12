@@ -1,5 +1,4 @@
 .Navbar{
-    background-color: #e3d3cb;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -7,6 +6,10 @@
     padding-left: 20px;
     padding-right: 220px;
     font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-left{
@@ -20,14 +23,20 @@
 }
 
 .links{
+    font-size: 17px;
     display: flex;
     align-items: center;
-    width: 20%;
-    text-decoration: none;
+    list-style: none;
+    padding-right: 30px;
 }
 
-.links a{
-    color: #e32e2e;
-    text-decoration: none;
+
+
+.links li{
+    color: #5ac931;
     padding: 25px;
+}
+
+.links li:hover{
+    cursor: pointer;
 }
