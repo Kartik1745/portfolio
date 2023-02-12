@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+}   
+
+.about-me{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
