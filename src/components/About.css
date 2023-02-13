@@ -1,22 +1,32 @@
 .About{
     height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.title {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    color: rgb(0, 0, 0);
-
-}   
+}  
 
 .about-me{
+    display: flex;
+    padding: 25px;
+    height: 100vh;
+    align-items: center;
+}
+
+#wk-info{
+    color:#5ac931;
+}
+
+.abt-me{
+    font-size: 60px;
+}
+
+#lnkd-link{
+    /* text-decoration: none; */
+    color: #0072b1;
+}
+
+.about-me-text{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    width: 50%;
-    margin: 0 auto;
+    font-size: 22px;
     text-align: center;
+    color: rgb(190, 180, 180);
+    padding-right: 10px;
+    margin-top: -30px;
 }
