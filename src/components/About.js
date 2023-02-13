@@ -16,7 +16,7 @@ const About = () => {
                     <p>
                     I strive to keep up with the latest developments in the field, and I am always 
                     looking for new challenges to enhance my skills and bring innovative ideas to life.
-                    If you're looking for a <span id='wk-info'>talented</span> and <span id='wk-info'>motivated</span> software developer, 
+                    If you're looking for a <span>talented</span> and <span>motivated</span> software developer, 
                     Feel free to Connect or Follow me on my <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank">Linkedin</a>.
                     </p>
                 </div>
