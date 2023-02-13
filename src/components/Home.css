@@ -1,22 +1,23 @@
 .Home{
-    height: 100vh;
-    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: auto;
 }
 
 .home-title {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     color: rgb(190, 180, 180);
 
-}   
+}
+   
 
 .home-me{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+    font-size: 24px;
     width: 50%;
     margin: 0 auto;
     text-align: center;

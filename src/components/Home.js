@@ -77,7 +77,7 @@ const Home = () => {
 
     return (
         <div id='home' className='Home'>
-            <h1 className='home-title'>HEY, I'M KARTIK PATIL</h1>
+            <h1 className='home-title'>HEY, I'M <span id='name-title'>KARTIK PATIL</span> </h1>
             <div className='home-me'>
                 <p className='home-me-text'>
                 I am a <span class="matrix-text">
