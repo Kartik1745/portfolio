@@ -9,16 +9,15 @@ const Navbar = () => {
     return (
         <div className="Navbar">
             <div className='nav-left'>
-            <Avatar className='avatar' alt="Travis Howard" src="/static/images/avatar/2.jpg" sx={{ width: 56, height: 56 }} />
-            <h1 className='name'>Kartik Patil</h1>
+            <Avatar className='avatar' alt="Travis Howard" src={process.env.PUBLIC_URL + '/img.jpg'} sx={{ width: 60, height: 60 }} />
             </div>
-           <div className='links'>
+        <div className='links'>
                 <li onClick={() => scrollTo("home")}>Home</li>
                 <li onClick={() => scrollTo("about")}>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
-           </div>
         </div>
+        </div>        
     );  
 }
 

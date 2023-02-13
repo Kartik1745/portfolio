@@ -3,16 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 220px;
     font-family: 'Courier New', Courier, monospace;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+    width: auto;
+    box-shadow: 0 10px 100px 0 rgba(0,0,0,0.4);
 }
 
 .nav-left{
+    padding-left: 20px;
     display: flex;
     align-items: center;
     width: 30%;
@@ -23,11 +20,11 @@
 }
 
 .links{
+    padding-right:30px;
     font-size: 17px;
     display: flex;
     align-items: center;
     list-style: none;
-    padding-right: 30px;
 }
 
 
