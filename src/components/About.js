@@ -1,4 +1,15 @@
-import './About.css';
+import './About.css'; 
+import html from  '../images/html.png';
+import c from  '../images/c.png';
+import css from  '../images/css.png';
+import git from  '../images/git.png';
+import github from  '../images/github.png';
+import java from  '../images/java.png';
+import javascript from  '../images/js.png';
+import nodejs from  '../images/nodejs.png';
+import react from  '../images/react.png';
+import sql from  '../images/sql.png';
+
 
 const About = () => {
     return (
@@ -7,18 +18,36 @@ const About = () => {
                 <div className='about-me-text'>
                     <h1 className='abt-me'>ABOUT ME</h1>
                     <p className='my-info'>
-                    Hi, I'm a <span id='wk-info'>full stack developer</span> with a passion for building dynamic and efficient 
-                    web applications. My expertise lies in developing and deploying end-to-end solutions, 
-                    from the front-end user interface to the back-end server-side logic. I have hands-on 
-                    experience in multiple programming languages and web technologies, including <span id='wk-info'>HTML, 
-                    CSS, JavaScript, React, Node.js.</span> 
-                    </p>
+                    Hello, I am a <span id='wk-info'>full stack developer</span> who is passionate about creating dynamic 
+                    and efficient web applications. I have experience developing and deploying 
+                    end-to-end solutions, from the <span id='wk-info'>front-end</span> user interface to the <span id='wk-info'>back-end </span>
+                    server-side logic.
                     <p>
-                    I strive to keep up with the latest developments in the field, and I am always 
-                    looking for new challenges to enhance my skills and bring innovative ideas to life.
-                    If you're looking for a <span>talented</span> and <span>motivated</span> software developer, 
-                    Feel free to Connect or Follow me on my <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank">Linkedin</a>.
+                    I stay up-to-date with the latest advancements in the 
+                    field and am always eager to take on new challenges to enhance my abilities 
+                    and bring innovative ideas to fruition. I'm open to <span id='wk-info'>Job</span>  opportunities where I can contribute, learn and grow.
+                    </p> 
+                    Please don't hesitate to connect or 
+                    follow me on LinkedIn if you're looking for a talented and motivated software 
+                    developer.  <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank" rel='noopener noreferrer'>Linkedin</a>.
                     </p>
+                </div>
+            </div>
+            <div className='skills'>
+                <div className='skills-text'>
+                    <h1 >SKILLS</h1>
+                    <div className='skill-list'>
+                        <img src={html} alt='html' className='skill-img'/>
+                        <img src={css} alt='css' className='skill-img'/>
+                        <img src={javascript} alt='javascript' className='skill-img'/>
+                        <img src={react} alt='react' className='skill-img'/>
+                        <img src={nodejs} alt='nodejs' className='skill-img'/>
+                        <img src={sql} alt='sql' className='skill-img'/>
+                        <img src={git} alt='git' className='skill-img'/>
+                        <img src={github} alt='github' className='skill-img'/>
+                        <img src={c} alt='c' className='skill-img'/>
+                        <img src={java} alt='java' className='skill-img'/>
+                    </div>
                 </div>
             </div>
         </div>

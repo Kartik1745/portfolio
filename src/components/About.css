@@ -1,5 +1,7 @@
 .About{
     height: 100vh;
+    flex-direction: row;
+    display: flex;
 }  
 
 .about-me{
@@ -7,6 +9,8 @@
     padding: 25px;
     height: 100vh;
     align-items: center;
+    width: 50%;
+    margin-top: -30px;
 }
 
 #wk-info{
@@ -18,15 +22,55 @@
 }
 
 #lnkd-link{
-    /* text-decoration: none; */
     color: #0072b1;
 }
 
 .about-me-text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
-    text-align: center;
+    text-align: left;
     color: rgb(190, 180, 180);
-    padding-right: 10px;
-    margin-top: -30px;
+    padding-right: 10px;   
 }
+
+.skills{
+    display: flex;
+    padding: 25px;
+    height: 100vh;
+    align-items: center;
+    width: 35%;
+    margin-top: -84px;
+}
+
+.skills-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: rgb(190, 180, 180); 
+}
+
+.skills-text h1{
+    font-size: 60px;
+}
+
+.skill-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.skill-list img{
+    width: 64px;
+    height: 64px;
+    padding: 10px;
+}
+
+/* .skill-list li{
+    font-size: 22px;
+    background-color: rgb(27, 24, 24);
+    padding: 10px;
+    list-style: none;
+    margin: 10px;
+    border-radius: 20px;
+} */
