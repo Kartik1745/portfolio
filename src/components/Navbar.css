@@ -34,6 +34,12 @@
     padding: 25px;
 }
 
+.links a{
+    text-decoration: none;
+    color: #5ac931;
+    padding: 25px;
+}
+
 .links li:hover{
     cursor: pointer;
 }

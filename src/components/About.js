@@ -28,8 +28,8 @@ const About = () => {
                     and bring innovative ideas to fruition. I'm open to <span id='wk-info'>Job</span>  opportunities where I can contribute, learn and grow.
                     </p> 
                     Please don't hesitate to connect or 
-                    follow me on LinkedIn if you're looking for a talented and motivated software 
-                    developer.  <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank" rel='noopener noreferrer'>Linkedin</a>.
+                    follow me on <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank" rel='noopener noreferrer'>LinkedIn</a> if you're looking for a talented and motivated software 
+                    developer.
                     </p>
                 </div>
             </div>

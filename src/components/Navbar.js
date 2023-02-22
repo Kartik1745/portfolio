@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='links'>
                 <li onClick={() => scrollTo("home")}>Home</li>
                 <li onClick={() => scrollTo("about")}>About</li>
-                <li>Projects</li>
+                <a href='https://github.com/Kartik1745' target="_blank" rel='noopener noreferrer'>Projects</a>
                 <li>Contact</li>
         </div>
         </div>        
