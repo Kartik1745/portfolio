@@ -1,76 +1,23 @@
-.About{
-    height: 100vh;
-    flex-direction: row;
+.about-container{
+    color: rgb(0, 0, 0);
     display: flex;
-}  
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-.about-me{
-    display: flex;
-    padding: 25px;
-    height: 100vh;
-    align-items: center;
+#abtme{
+    color:#00539C;
+    font-size: 60px;
+}
+
+.about-text{
     width: 50%;
-    margin-top: -30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #wk-info{
-    color:#5ac931;
+    color:#2272FF;
 }
-
-.abt-me{
-    font-size: 60px;
-}
-
-#lnkd-link{
-    color: #0072b1;
-}
-
-.about-me-text{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    text-align: left;
-    color: rgb(190, 180, 180);
-    padding-right: 10px;   
-}
-
-.skills{
-    display: flex;
-    padding: 25px;
-    height: 100vh;
-    align-items: center;
-    width: 35%;
-    margin-top: -84px;
-}
-
-.skills-text{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    color: rgb(190, 180, 180); 
-}
-
-.skills-text h1{
-    font-size: 60px;
-}
-
-.skill-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0px;
-}
-
-.skill-list img{
-    width: 64px;
-    height: 64px;
-    padding: 10px;
-}
-
-/* .skill-list li{
-    font-size: 22px;
-    background-color: rgb(27, 24, 24);
-    padding: 10px;
-    list-style: none;
-    margin: 10px;
-    border-radius: 20px;
-} */

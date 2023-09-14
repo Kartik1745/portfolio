@@ -1,5 +1,5 @@
 .Home{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
     text-align: center;
-    color: rgb(190, 180, 180);
+    color: #00539C;
 
 }
    
@@ -24,10 +24,11 @@
 }
 
 .home-me-text{
-    color: rgb(190, 180, 180);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 
 .matrix-text{
-    color: #5ac931;
+    color: #00539C;
 }

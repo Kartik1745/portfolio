@@ -7,18 +7,18 @@ const Navbar = () => {
         element.scrollIntoView({ behavior: "smooth" });
     };
     return (
-        <div className="Navbar">
-            <div className='nav-left'>
-            <Avatar className='avatar' alt="Travis Howard" src={process.env.PUBLIC_URL + '/img.jpg'} sx={{ width: 60, height: 60 }} />
+        <div className='nav-container'>
+            <div className='image'>
+`               <Avatar className='avatar' alt="Travis Howard" src={process.env.PUBLIC_URL + '/img.jpg'} sx={{ width: 60, height: 60 }} />
             </div>
-        <div className='links'>
+            <div className='links'>
                 <li onClick={() => scrollTo("home")}>Home</li>
-                <li onClick={() => scrollTo("about")}>About</li>
-                <a href='https://github.com/Kartik1745' target="_blank" rel='noopener noreferrer'>Projects</a>
-                <li>Contact</li>
+                <li>About</li>
+                <li>Projects</li>
+                <a href='https://drive.google.com/file/d/1-oR_9MOfuku34drPTG8c4vvJN1YeyQ_5/view?usp=sharing' target=' '>Resume</a>
+            </div>
         </div>
-        </div>        
-    );  
+    );
 }
 
 export default Navbar;
