@@ -1,15 +1,5 @@
 import './About.css'; 
-import html from  '../images/html.png';
-import c from  '../images/c.png';
-import css from  '../images/css.png';
-import git from  '../images/git.png';
-import github from  '../images/github.png';
-import java from  '../images/java.png';
-import javascript from  '../images/js.png';
-import nodejs from  '../images/nodejs.png';
-import react from  '../images/react.png';
-import sql from  '../images/sql.png';
-
+import linkedin from '../images/linkedin.png';
 
 const About = () => {
     return (
@@ -19,7 +9,7 @@ const About = () => {
             <h1 id='abtme'>ABOUT ME</h1>
             <p>
             Hello, I am a <span id='wk-info'>full stack developer</span> who is passionate about creating dynamic 
-            and efficient web applications. I'm a motivated full-stack developer with a passion for crafting seamless digital experiences.
+            and efficient web applications.
             </p>
             <p>
             I love translating complex problems into intuitive products that delight users. 
@@ -34,13 +24,26 @@ const About = () => {
             I’m also <span id='wk-info'>open to job opportunities</span> where I can contribute, learn, and grow. 
             </p>
             <h3>Let's connect!</h3>
-            <div>
-                <a id='lnkd-link' href='https://www.linkedin.com/in/kartikpatil98/' target="_blank" rel='noopener noreferrer'>LinkedIn</a>
+            <div className='connect'>
+                <a href='https://www.linkedin.com/in/kartikpatil98/' target=' '>
+                    <img src={linkedin} alt='linkedin'/>
+                </a>
             </div>
         </div>
         <div className='skills'>
+            <div>
+                <h1 id='abt-skills'>SKILLS</h1>
+            </div>
             <div className='skills-text'>
-                <h1>SKILLS</h1>
+                <ul>HTML</ul>
+                <ul>CSS</ul>
+                <ul>javascript</ul>
+                <ul>ReactJS</ul>
+                <ul>NodeJS</ul>
+                <ul>Express</ul>
+                <ul>Redux</ul>
+                <ul>SQL</ul>
+                <ul>REST</ul>
             </div>
         </div>
     </div>

@@ -4,6 +4,10 @@
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    height: 100vh;
+    align-items: center;
 }
 
 #abtme{
@@ -13,11 +17,39 @@
 
 .about-text{
     width: 50%;
-    font-size: 20px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
 }
 
 #wk-info{
     color:#2272FF;
+}
+
+.skills{
+    text-align: left;
+    width: 50%;
+    margin-left: 20px;
+    position: relative;
+    top: -82px;
+}
+
+#abt-skills{
+    color:#00539C;
+    font-size: 60px;
+    text-align: left;
+}
+
+.skills-text{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+.skills-text ul{
+    background-color: #00539C;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
