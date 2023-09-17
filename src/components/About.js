@@ -4,7 +4,7 @@ import linkedin from '../images/linkedin.png';
 const About = () => {
     return (
 
-    <div className='about-container'>
+    <div id='about' className='about-container'>
         <div className='about-text'>
             <h1 id='abtme'>ABOUT ME</h1>
             <p>
