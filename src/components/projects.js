@@ -7,6 +7,8 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import github from '../images/github.png'
+import pageview from '../images/page-views.png'
 
 const Projects = () => {   
     
@@ -14,14 +16,16 @@ const Projects = () => {
         {
             image: 'tasktracker',
             title: 'Task Tracker',
-            description: 'A simple task tracker app built using ReactJS.',
-            Url: 'https://lighthall-level2-sf8i.vercel.app/'
+            description: 'The app allows users to save, delete and edit tasks with ease.It features a user-friendly interface and intuitive navigation, making it easy to stay organized and on top of your to-do list.',
+            Url: 'https://lighthall-team60-tasks.vercel.app/',
+            Git: 'https://github.com/Kartik1745/Lighthall-level2'
         },
         {
             image: 'notesapp',
             title: 'Notes App',
-            description: 'A simple notes app built using ReactJS.',
-            Url: 'https://notesapp-eight.vercel.app/'
+            description: 'The app allows users to easily save and delete notes. With its intuitive interface and seamless functionality, it’s the perfect tool for keeping track of important information',
+            Url: 'https://notesapp-eight.vercel.app/',
+            Git: 'https://github.com/Kartik1745/Notes-app'
         },    
     ]
     
@@ -30,7 +34,7 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className='projects-container'>
                 {data.map((item) => (
-                    <Card sx={{ maxWidth: 445 }} className='project-card'>
+                    <Card sx={{ maxWidth: 445, borderRadius: 5, backgroundColor:'#495159' }} className='project-card'>
                         <CardMedia
                             component="img"
                             height="340"
@@ -38,18 +42,20 @@ const Projects = () => {
                             alt="green iguana"
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography sx={{color: 'white'}} gutterBottom variant="h5" component="div">
                                 {item.title}
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography sx={{color: 'white'}} variant="body2">
                                 {item.description}
                             </Typography>
                         </CardContent>
-                        <CardActions>
-                            <Button size="small" href={item.Url} target=' '>View Website</Button>
+                        <CardActions >
+                            <Button sx={{background: 'white'}} size="small" href={item.Url} target=' '><img style={{maxHeight:32}} src={pageview} alt='github' className='github' /></Button>
+                            <Button sx={{background: 'white'}} size="small" href={item.Git} target=' '><img style={{maxHeight:32}} src={github} alt='github' className='github' /></Button>
                         </CardActions>
                     </Card>
                 ))}
+                <a id='git' href='https://github.com/Kartik1745' target=' '>More Projects</a>
             </div>
         </div>
     );

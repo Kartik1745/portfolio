@@ -9,6 +9,9 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
+}
+
+.projects h1{
     color: #00539C;
 }
 
@@ -26,7 +29,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 20px 0 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
+}
+
+#git{
+    color: #00539C;
+    text-decoration: none;
 }
